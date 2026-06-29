@@ -1,0 +1,22 @@
+package com.mahesh.sms.enums;
+
+public enum PermissionType {
+
+    CREATE_STUDENT,
+    UPDATE_STUDENT,
+    DELETE_STUDENT,
+    VIEW_STUDENT,
+
+    CREATE_TEACHER,
+    UPDATE_TEACHER,
+    DELETE_TEACHER,
+
+    MARK_ATTENDANCE,
+    VIEW_ATTENDANCE,
+
+    CREATE_RESULT,
+    VIEW_RESULT,
+
+    MANAGE_FEES,
+    VIEW_REPORTS
+}
